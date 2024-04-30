@@ -9,7 +9,7 @@ const ImageCard = ({ url, title, origin, status }) => {
       <div className="card-title display-7 text-center text-black">
       <h5 className="text-dark">orígen:</h5>
       <p className="text-dark">{origin}</p>
-      <h5 className="text-dark">status:</h5>
+      <h5 className="text-dark">Estado  :</h5>
       <p className="text-dark">{status}</p>       
       </div>
     </div>
