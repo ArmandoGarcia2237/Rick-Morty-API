@@ -1,6 +1,8 @@
+import Fade from 'react-reveal/Fade'
 const ImageCard = ({ url, title, origin, status }) => {
   return (
     <>
+    <Fade top distance="20%">
     <div className='shadow container mb-2 col-md-2 p-2 m-1 card card-body' >
       <img src={url} alt={title} className='' />
       <div className="card-title display-6 text-center text-black">
@@ -13,6 +15,7 @@ const ImageCard = ({ url, title, origin, status }) => {
       <p className="text-dark">{status}</p>       
       </div>
     </div>
+    </Fade>
     </>
   )
 }
