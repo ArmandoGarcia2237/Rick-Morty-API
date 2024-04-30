@@ -36,10 +36,12 @@ function App() {
 return (
     <>
     <div className="bg-dark text-white">
-      <h1 className='text-center display-1 py-4'>Rick and Morty</h1>
+      <h1 className='text-center display-1 py-top-4'>Rick and Morty</h1>
+      <p className='text-center display-8 pb-5'>Almanaque de personajes</p>
       <div className='container'>
       <div className='d-flex justify-content-between aling-items-center'>
       <button className='btn btn-success' onClick={back}>atrás</button>
+      <p>página:{page}</p>
       <button className='btn btn-success' onClick={Add}>siguiente</button>
       </div>
         <div className='row'>
