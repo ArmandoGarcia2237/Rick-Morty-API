@@ -43,8 +43,8 @@ return (
       <button className='btn btn-success' onClick={Add}>siguiente</button>
       </div>
         <div className='row'>
-        {character.map((crd) => {
-      return <ImageCard key={crd.id} url={crd.image} title={crd.name} />
+        {character.map((crd) => {crd.status
+      return <ImageCard key={crd.id} url={crd.image} title={crd.name} origin={crd.location.name} status={crd.status}/>
       })}
         </div>
       </div>
